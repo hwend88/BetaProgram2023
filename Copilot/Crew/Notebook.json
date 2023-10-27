@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 16,
+  "icon": "si-copilot",
+  "color": "#11A37F",
+  "blocks": [
+    {
+      "id": "sQ3PduJgVAj5qezGivcSuv",
+      "lang": "javascript"
+    },
+    {
+      "id": "UUjNDLxQ6OxsP7nGMiuosV",
+      "lang": "javascript"
+    },
+    {
+      "id": "zj8Xa2goK3H0b0gQzJDcCM",
+      "lang": "python",
+      "pinned": true
+    },
+    {
+      "id": "JaSV100Qa2nZ7rY0alCPK6",
+      "lang": "javascript"
+    },
+    {
+      "id": "I7Q4dfmKyAe2wj5j3eBHA8",
+      "lang": "python",
+      "pinned": true
+    },
+    {
+      "id": "Rp3Xjj7PDC4ebe1cN4TuMU",
+      "lang": "javascript"
+    },
+    {
+      "id": "rvJcM9VmYj0ANx2hYIhNsh",
+      "lang": "python"
+    },
+    {
+      "id": "n2ge0XWz2b1PKi1Ymbcsku",
+      "lang": "python"
+    },
+    {
+      "id": "QYiyMqNrpmlXkp2EZjzmAt",
+      "lang": "python"
+    },
+    {
+      "id": "Ntk4L3d7IBK2t4ypjV7kT0",
+      "lang": "javascript"
+    },
+    {
+      "id": "u2wedKEnS7ZVxX7zRZ7lJz",
+      "lang": "python"
+    },
+    {
+      "id": "GJautonvSebvWF8x1DmOR5",
+      "lang": "python"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 16,
+  "icon": "mdi-table-multiple",
+  "color": "#4E79A8",
+  "parameters": [],
+  "recipe": [
+    {
+      "id": "RhnjZymO1LPVnKLsoqJ8kK",
+      "transform": "IMPORT",
+      "params": {
+        "type": "manual"
+      },
+      "post": {
+        "configure": {
+          "first_name": {
+            "datatype": "name"
+          },
+          "organization": {
+            "datatype": "relation"
+          },
+          "account": {
+            "datatype": "relation"
+          },
+          "title": {
+            "datatype": "name"
+          },
+          "country": {
+            "datatype": "relation"
+          },
+          "junior_year": {
+            "datatype": "period"
+          },
+          "generation": {
+            "datatype": "category"
+          },
+          "email": {
+            "datatype": "email"
+          },
+          "issues": {
+            "datatype": "category"
+          }
+        }
+      }
+    },
+    {
+      "id": "SQ5qElJKYguBw7HCfSoBCk",
+      "transform": "JOIN",
+      "params": {
+        "foreign_table": {
+          "journeyName": "Beta Candidates"
+        },
+        "primary_key": "email",
+        "foreign_key": "email",
+        "columns": [
+          {
+            "foreignId": "category",
+            "newName": null,
+            "newId": null,
+            "description": null
+          }
+        ],
+        "move": {
+          "method": "first",
+          "reference": null,
+          "position": null
+        }
+      },
+      "post": {
+        "filter": [
+          {
+            "method": "isNotBlank",
+            "disabled": false,
+            "column": "category"
+          }
+        ],
+        "markers": {
+          "primary": [
+            "linkedin_id"
+          ]
+        }
+      }
+    },
+    {
+      "id": "DfhyLb03D2X1ksDY9IBuVR",
+      "transform": "EDIT",
+      "params": {
+        "allowEdition": true,
+        "allowInsertion": true,
+        "allowDeletion": true,
+        "autorefresh": null,
+        "columns": [
+          "notes",
+          "feedback",
+          "issues"
+        ]
+      },
+      "post": {
+        "markers": {
+          "freezing": "full_name"
+        },
+        "drop": [
+          "first_name",
+          "last_name",
+          "junior_year",
+          "generation",
+          "type",
+          "status"
+        ]
+      }
+    }
+  ],
+  "boundaries": {
+    "server": null
+  }
+}

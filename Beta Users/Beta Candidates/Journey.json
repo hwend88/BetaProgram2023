@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 16,
+  "icon": "mdi-table-multiple",
+  "color": "#4E79A8",
+  "parameters": [],
+  "recipe": [
+    {
+      "id": "zuxF45fHgIr0sd51iUrymE",
+      "transform": "IMPORT",
+      "params": {
+        "type": "manual"
+      }
+    }
+  ],
+  "boundaries": {
+    "server": null
+  }
+}

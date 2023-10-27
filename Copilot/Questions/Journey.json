@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 16,
+  "icon": "di-help",
+  "color": "#11A37F",
+  "parameters": [],
+  "recipe": [
+    {
+      "id": "bCbu205IERyM4g7CzsORoZ",
+      "transform": "IMPORT",
+      "params": {
+        "type": "manual"
+      },
+      "post": {
+        "markers": {
+          "primary": [
+            "question"
+          ]
+        }
+      }
+    },
+    {
+      "id": "IdzN89R8JRlyK6Ulw3Lc3E",
+      "transform": "EDIT",
+      "params": {
+        "columns": [
+          "question",
+          "answerable"
+        ]
+      }
+    }
+  ],
+  "boundaries": {
+    "server": null
+  }
+}

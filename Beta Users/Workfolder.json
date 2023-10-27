@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 16,
+  "id": "ma4aSJX211oiyPPethxbWw",
+  "icon": "mdi-account-group",
+  "pages": [
+    {
+      "type": "journey",
+      "id": "kfcskY8PiPXyDjlJqlfZ1e",
+      "name": "Beta Candidates"
+    },
+    {
+      "type": "journey",
+      "id": "Au1iV0a0IMyU0fwhb2Vq7S",
+      "name": "Feedback"
+    }
+  ]
+}
