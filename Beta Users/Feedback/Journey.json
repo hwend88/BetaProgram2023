@@ -38,6 +38,12 @@
           },
           "issues": {
             "datatype": "category"
+          },
+          "notes": {
+            "datatype": "text"
+          },
+          "feedback": {
+            "datatype": "text"
           }
         }
       }
