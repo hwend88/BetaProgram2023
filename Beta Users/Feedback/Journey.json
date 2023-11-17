@@ -95,7 +95,7 @@
         "allowDeletion": true,
         "autorefresh": null,
         "columns": [
-          "google_finance_tutorial_sent",
+          "tutorial_provided",
           "notes",
           "feedback",
           "issues"
