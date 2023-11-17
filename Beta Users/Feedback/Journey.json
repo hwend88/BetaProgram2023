@@ -95,6 +95,7 @@
         "allowDeletion": true,
         "autorefresh": null,
         "columns": [
+          "google_finance_tutorial_sent",
           "notes",
           "feedback",
           "issues"
@@ -113,6 +114,58 @@
           "status"
         ]
       }
+    },
+    {
+      "id": "mbEpDUaoCYtMBAWBCG1hwx",
+      "transform": "VIEW",
+      "views": [
+        {
+          "id": "dDD8QHAN8Dbp3IARY7VMTd",
+          "name": "Data Beta Users",
+          "filter": [
+            {
+              "method": "isStringEqual",
+              "params": {
+                "values": [
+                  "Data"
+                ],
+                "ignoredValues": []
+              },
+              "disabled": false,
+              "column": "category"
+            }
+          ]
+        },
+        {
+          "id": "KsTw8WvXgKzcDt0HKPpBFH",
+          "name": "LCA Beta Users",
+          "filter": [
+            {
+              "method": "isStringEqual",
+              "params": {
+                "values": [
+                  "LCA"
+                ],
+                "ignoredValues": []
+              },
+              "disabled": false,
+              "column": "category"
+            }
+          ]
+        },
+        {
+          "id": "F401vYGyU2myhOd7HJjdBo",
+          "name": "Feedback Given",
+          "filter": [
+            {
+              "method": "isNotBlank",
+              "params": {},
+              "disabled": false,
+              "column": "feedback"
+            }
+          ]
+        }
+      ]
     }
   ],
   "boundaries": {
