@@ -96,6 +96,7 @@
         "autorefresh": null,
         "columns": [
           "tutorial_provided",
+          "responded_to_tutorial_email",
           "notes",
           "feedback",
           "issues"
@@ -162,6 +163,23 @@
               "params": {},
               "disabled": false,
               "column": "feedback"
+            }
+          ]
+        },
+        {
+          "id": "Bs59ZBHxg0xc6zyLfdsjKD",
+          "name": "Responded to Tutorial Email",
+          "filter": [
+            {
+              "method": "isBooleanEqual",
+              "params": {
+                "values": [
+                  true
+                ],
+                "ignoredValues": []
+              },
+              "disabled": false,
+              "column": "responded_to_tutorial_email"
             }
           ]
         }
